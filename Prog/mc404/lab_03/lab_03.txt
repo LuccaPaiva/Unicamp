@@ -1,0 +1,49 @@
+#Atualiza endereco intrucao 1
+LOAD M(0x3FE)       #AC <- & vet1
+ADD  M(0x051)       #AC <- vet[i]
+STOR M(Comeco, 8:19)#Altera 1 load
+#Atualiza endereco onstrucao 2
+LOAD M(0x3FF)       #AC <- & vet2
+ADD  M(0x051)       #AC <- vet2[i]
+STOR M(Comeco,28:39)#Altera MUL
+
+Comeco:
+LOAD MQ,M(0x3FE)     #MQ <- &vet 1
+MUL  M(0x3FF)        #MQ <- vet1[i]*vet2[i]
+LOAD MQ              #AC <- MQ
+ADD  M(0x052)        #sum += AC
+STOR M(0x052)        #Mem <- AC
+#Atualiza i
+LOAD M(0x051)       #AC <- i
+ADD  M(0x050)       #AC <- AC + 1
+STOR M(0x051)       #Mem <- i
+
+#Whilhe i < n
+LOAD M(0x3FD)       #AC <- n
+SUB  M(0x050)       #AC <- AC -1
+SUB  M(0x051)       #AC <- AC - i
+JUMP+M(Comeco)
+
+#Fim
+LOAD M(0x052)
+JUMP M(0x400)
+
+#DADOS
+
+0050 00 00 00 00 01  # const 1
+0051 00 00 00 00 00  # var i
+0052 00 00 00 00 00  # var sum
+
+Vetores:
+0211 00 00 00 00 00  #valor 0
+0212 00 00 00 00 02
+0213 00 00 00 00 05
+
+0222 00 00 00 00 01
+0223 00 00 00 00 06
+0224 00 00 00 00 09
+
+Comeco:
+03FD 00 00 00 00 00  #n tamanho vetores
+03FE 00 00 00 00 00  #& Vet 1
+03FF 00 00 00 00 00  #& Vet 2

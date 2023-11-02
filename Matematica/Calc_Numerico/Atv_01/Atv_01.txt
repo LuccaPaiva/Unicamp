@@ -1,0 +1,17 @@
+1)
+2.0000   2.7169   2.7183   2.7183   2.7185   3.0350   1.0000
+A constante e vale 2.718, porem pode-se notar que o valor achado vai se aproximando desse numero ate para 10**12, porem para numeros maiores que esse o valor achado e maior, e esta mais distante que os demais. Isso se devev provavelmente a aproximacoes do computador.
+
+3)
+[1 2 3; 1 4 5; 3 5 7]
+
+
+4)
+Kx=i
+K = C*B
+i = b*(2A+I)(I+AC)
+
+pois o ideal é evitar principalmente ter que calcular o inverso de uma matriz. Alem disso, tambem é bom minimizar o numero de produtos matriciais.
+
+5)
+No primerio caso o resultado obtido foi um vetor de apenas 1s, ja no segundo caso (n=30), muitos dos valores diferiam de 1, no ultimo caso praticamente todos os valores eram diferentes de 1, e a diferenca deles para 1 era ainda maior.

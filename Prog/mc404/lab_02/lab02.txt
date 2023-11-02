@@ -1,0 +1,43 @@
+y = g*x
+LOAD MQ,M(0x105)     #MQ <- x
+MUL  M(0x092)        #MQ <- x*g
+LOAD MQ              #AC <- MQ
+STOR M(0x095)        #y = x*g
+k = y/2
+LOAD M(0x095)        #AC <- y
+DIV  M(0x091)        #MQ <- y/2
+LOAD MQ              #AC <- MQ (y/2)
+STOR M(0x094)        #k = y/2
+
+loop:
+LOAD M(0x095)        #AC <- y
+DIV  M(0x094)        #MQ <- y/k
+LOAD MQ              #AC <- MQ (y/k)
+ADD  M(0x094)        #AC <- AC + k (k + y/k)
+DIV  M(0x091)        #MQ <- AC/2 ((k + y/k)/2)
+LOAD MQ              #AC <- MQ ((k + y/k)/2)
+STOR M(0x094)        #k = ((k + y/k)/2)
+i:
+LOAD M(0x093)        #AC <- i
+ADD  M(0x090)        #AC <- AC++
+STOR M(0x093)        #i++
+if:
+LOAD M(0x092)        #AC <- 10
+SUB  M(0x093)        #AC <- AC - i (10 - i)
+JUMP+M(loop)         #if AC >= 0 -> loop
+Fim:
+LOAD M(0x094)        #AC <- k
+JUMP M(0x400)        #Fim
+
+
+
+#ALOCACAO
+
+0090 00 00 00 00 01  #Const 1
+0091 00 00 00 00 02  #Const 2
+0092 00 00 00 00 0A  #Const g = 10
+0093 00 00 00 00 01  #Var i
+0094 00 00 00 00 00  #Var k = 0
+0095 00 00 00 00 00  #var y
+
+0105 00 00 00 0D AC  #x

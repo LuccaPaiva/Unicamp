@@ -1,0 +1,235 @@
+SciDAVis 2.3.0 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+4485
+<table creation_time="2020-30-11 10:26:12:507" caption_spec="%n%C{ - }%c" name="Table1" columns="4" rows="30"><comment><![CDATA[]]></comment><column creation_time="2020-30-11 10:26:12:507" caption_spec="%n%C{ - }%c" name="Frequencia" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2020-30-11 10:26:12:507" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2020-30-11 10:26:12:508" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="1" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">7.7000000000000000e+04</row><row type="TypeDouble" index="1" invalid="no">3.1250000000000000e+04</row><row type="TypeDouble" index="2" invalid="no">1.1000000000000000e+04</row><row type="TypeDouble" index="3" invalid="no">1.0000000000000000e+03</row><row type="TypeDouble" index="4" invalid="no">3.1250000000000000e+02</row><row type="TypeDouble" index="5" invalid="no">1.0000000000000000e+02</row></column><column creation_time="2020-30-11 10:41:27:699" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2020-30-11 10:41:45:288" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2020-30-11 10:41:45:288" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="5" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="3" invalid="no">-2.2276394710000000e-01</row><row type="TypeDouble" index="4" invalid="no">-1.0995384300000000e-01</row><row type="TypeDouble" index="5" invalid="no">0.0000000000000000e+00</row></column><column creation_time="2020-30-11 11:00:35:900" caption_spec="%n%C{ - }%c" name="2" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2020-30-11 11:01:58:406" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2020-30-11 11:01:58:407" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="14" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="1" invalid="yes">0.0000000000000000e+00</row><row type="TypeDouble" index="2" invalid="no">-5.0708447809999999e+00</row><row type="TypeDouble" index="3" invalid="no">-2.2276394710000000e-01</row></column><column creation_time="2020-30-11 10:26:12:509" caption_spec="%n%C{ - }%c" name="Transmitancia" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2020-30-11 10:26:51:057" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2020-30-11 10:26:51:058" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="5" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">-1.4890204779999999e+01</row><row type="TypeDouble" index="1" invalid="no">-1.0000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">-5.0708447809999999e+00</row><row type="TypeDouble" index="3" invalid="no">-2.2276394710000000e-01</row><row type="TypeDouble" index="4" invalid="no">-1.0995384300000000e-01</row><row type="TypeDouble" index="5" invalid="no">0.0000000000000000e+00</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">153</column_width></table>
+geometry	0	0	748	862	
+
+</table>
+<multiLayer>
+Graph1	1	1	30/11/2020 10:33
+geometry	788	2	908	682	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	422	254
+Alignement	0	0
+<graph>
+ggeometry	7	2	877	597
+PlotTitle		#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ff000000
+grid	1	1	0	0	#ff0000ff	0	1	#ffa0a0a4	2	1	#ff0000ff	0	1	#ffa0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Frequencia (Hz)	Transmitancia (dB)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	4	4	4	4
+TitleFont	MS Shell Dlg 2	18	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	15	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	15	75	0	0	0
+AxisFont0	MS Shell Dlg 2	15	50	0	0	0
+AxisFont1	MS Shell Dlg 2	15	50	0	0	0
+AxisFont2	MS Shell Dlg 2	15	50	0	0	0
+AxisFont3	MS Shell Dlg 2	15	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table1_Frequencia	Table1_Transmitancia	1	0	#ff000000	0	1	15	1	#ffff0000	#ffff0000	0	#ff000000	14	1	0	64		2	0	0	29	1
+curve	Table1_Frequencia	Table1_1	1	0	#ff00ff00	0	1	15	1	#ff00ff00	#ff19ff20	0	#ff000000	14	1	0	64		2	0	0	29	1
+curve	Table1_Frequencia	Table1_2	2	1	#ff0000ff	0	1	7	2	#ff0000ff	#ff0000ff	0	#ff000000	14	1	0	64		2	0	0	29	1
+scale	0	-16	2	0	10	5	0	0
+scale	1	-16	2	0	8	5	0	0
+scale	2	10	100000	0	5	5	1	0
+scale	3	10	100000	0	8	5	1	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+</graph>
+</multiLayer>
+<log>
+[30/11/2020 10:41	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_Transmitancia, using function: A*x+B
+Y standard errors: Unknown
+From x = 100 to x = 77.000
+B (y-intercept) = -1,08963147017232 +/- 1,01523930904316
+A (slope) = -0,00019687954857612 +/- 2,96645910217019e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 16,1956398784247
+R^2 = 0,916749615430219
+---------------------------------------------------------------------------------------
+[30/11/2020 10:44	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_Transmitancia, using function: A*x+B
+Y standard errors: Unknown
+From x = 11.000 to x = 77.000
+B (y-intercept) = -4,35628433996061 +/- 1,545724767163
+A (slope) = -0,000141653639757804 +/- 3,19390016077439e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 2,33233073441087
+R^2 = 0,951621601437622
+---------------------------------------------------------------------------------------
+[30/11/2020 10:45	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_1, using function: A*x+B
+Y standard errors: Unknown
+From x = 100 to x = 1.000
+B (y-intercept) = -0,00402809199339845 +/- 0,0409160000926962
+A (slope) = -0,000226997178137915 +/- 6,73366175434046e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00200686469210745
+R^2 = 0,919121240764536
+---------------------------------------------------------------------------------------
+[30/11/2020 10:48	Plot: ''Graph1'']
+Exponential decay fit of dataset: Table1_Transmitancia, using function: y0+A*exp(-x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 100 to x = 77.000
+A (amplitude) = 7,07086961152125e+46 +/- 0
+t (e-folding time) = 2,18843007428378e-44 +/- 0
+y0 (offset) = -5,04896122518333 +/- 3,28752965416807
+--------------------------------------------------------------------------------------
+Chi^2 = 194,541322086619
+R^2 = -1,04408669210354e-16
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[30/11/2020 10:50	Plot: ''Graph1'']
+Exponential decay fit of dataset: Table1_Transmitancia, using function: y0+A*exp(-x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 100 to x = 77.000
+A (amplitude) = 7,19980376289629e+46 +/- 0
+t (e-folding time) = 2,22625037521594e-44 +/- 0
+y0 (offset) = -5,04896122518333 +/- 3,28752965416807
+--------------------------------------------------------------------------------------
+Chi^2 = 194,541322086619
+R^2 = -1,04408669210354e-16
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[30/11/2020 10:50	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table1_Transmitancia, using function: A*x+B
+Y standard errors: Unknown
+From x = 100 to x = 77.000
+B (y-intercept) = -1,08963147017232 +/- 1,01523930904316
+A (slope) = -0,00019687954857612 +/- 2,96645910217019e-05
+--------------------------------------------------------------------------------------
+Chi^2 = 16,1956398784247
+R^2 = 0,916749615430219
+---------------------------------------------------------------------------------------
+[30/11/2020 11:02	Plot: ''Graph1'']
+Exponential decay fit of dataset: Table1_Transmitancia, using function: y0+A*exp(-x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 100 to x = 77.000
+A (amplitude) = 7,18885652362863e+46 +/- 0
+t (e-folding time) = 2,22545955045879e-44 +/- 0
+y0 (offset) = -5,04896122518333 +/- 3,28752965416807
+--------------------------------------------------------------------------------------
+Chi^2 = 194,541322086619
+R^2 = -1,04408669210354e-16
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[30/11/2020 11:06	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_Transmitancia, using function: A*log(x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 100 to x = 77.000
+a  = 1 +/- nan
+b  = 1 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = nan
+R^2 = nan
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[30/11/2020 11:08	Plot: ''Graph1'']
+Exponential growth fit of dataset: Table1_Transmitancia, using function: y0+A*exp(x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 100 to x = 77.000
+A (amplitude) = 15,9923076923077 +/- nan
+t (lifetime) = 1 +/- nan
+y0 (offset) = -15,4461538461538 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = inf
+R^2 = -inf
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[30/11/2020 11:09	Plot: ''Graph1'']
+Exponential growth fit of dataset: Table1_Transmitancia, using function: y0+A*exp(x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 100 to x = 77.000
+A (amplitude) = 15,9923076923077 +/- nan
+t (lifetime) = 1 +/- nan
+y0 (offset) = -15,4461538461538 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = inf
+R^2 = -inf
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[30/11/2020 11:11	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_Transmitancia, using function: t=1
+b=0
+b - a*exp(x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 100 to x = 77.000
+a  = 15 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = inf
+R^2 = -inf
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[30/11/2020 11:12	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_Transmitancia, using function: t=1
+b=0
+b - a*exp(x/t)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,01
+From x = 100 to x = 77.000
+a  = 15 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = inf
+R^2 = -inf
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[30/11/2020 11:12	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_Transmitancia, using function: b - a*exp(x)
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,01
+From x = 100 to x = 77.000
+a  = 15 +/- nan
+b  = 0 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = inf
+R^2 = -inf
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+</log>

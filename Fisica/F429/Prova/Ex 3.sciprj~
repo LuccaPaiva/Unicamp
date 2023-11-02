@@ -1,0 +1,79 @@
+SciDAVis 2.3.0 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+7031
+<table creation_time="2020-30-11 11:54:28:900" caption_spec="%n%C{ - }%c" name="Table1" columns="3" rows="30"><comment><![CDATA[]]></comment><column creation_time="2020-30-11 11:54:28:900" caption_spec="%n%C{ - }%c" name="Freqeuncia" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2020-30-11 11:54:28:900" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2020-30-11 11:54:28:900" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">3.5000000000000000e+00</row><row type="TypeDouble" index="1" invalid="no">6.4000000000000004e+00</row><row type="TypeDouble" index="2" invalid="no">1.1000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">2.0000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">3.8000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">6.5000000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">1.0200000000000000e+02</row><row type="TypeDouble" index="7" invalid="no">3.0000000000000000e+02</row><row type="TypeDouble" index="8" invalid="no">7.0000000000000000e+02</row><row type="TypeDouble" index="9" invalid="no">1.8000000000000000e+03</row><row type="TypeDouble" index="10" invalid="no">4.1000000000000000e+03</row><row type="TypeDouble" index="11" invalid="no">7.0000000000000000e+03</row><row type="TypeDouble" index="12" invalid="no">1.4000000000000000e+04</row><row type="TypeDouble" index="13" invalid="no">2.5000000000000000e+04</row><row type="TypeDouble" index="14" invalid="no">4.4000000000000000e+04</row><row type="TypeDouble" index="15" invalid="no">8.0000000000000000e+04</row><row type="TypeDouble" index="16" invalid="no">1.2000000000000000e+05</row></column><column creation_time="2020-30-11 12:15:14:924" caption_spec="%n%C{ - }%c" name="1" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2020-30-11 12:15:14:924" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2020-30-11 12:15:14:924" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="29">col(&quot;defasagem&quot;)*-1</formula><row type="TypeDouble" index="0" invalid="no">9.0000000000000000e+01</row><row type="TypeDouble" index="1" invalid="no">8.8000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">8.5000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">8.1000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">7.6000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">7.1000000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">6.5000000000000000e+01</row><row type="TypeDouble" index="7" invalid="no">4.5000000000000000e+01</row><row type="TypeDouble" index="8" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">-4.5000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">-6.3000000000000000e+01</row><row type="TypeDouble" index="11" invalid="no">-7.0000000000000000e+01</row><row type="TypeDouble" index="12" invalid="no">-7.6000000000000000e+01</row><row type="TypeDouble" index="13" invalid="no">-8.1000000000000000e+01</row><row type="TypeDouble" index="14" invalid="no">-8.5000000000000000e+01</row><row type="TypeDouble" index="15" invalid="no">-8.8000000000000000e+01</row><row type="TypeDouble" index="16" invalid="no">-9.0000000000000000e+01</row><row type="TypeDouble" index="17" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="18" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="19" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="20" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="21" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="22" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="23" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="24" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="25" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="26" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="27" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="28" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="29" invalid="no">0.0000000000000000e+00</row></column><column creation_time="2020-30-11 11:54:28:901" caption_spec="%n%C{ - }%c" name="defasagem" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2020-30-11 11:54:28:901" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2020-30-11 11:54:28:901" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">-9.0000000000000000e+01</row><row type="TypeDouble" index="1" invalid="no">-8.8000000000000000e+01</row><row type="TypeDouble" index="2" invalid="no">-8.5000000000000000e+01</row><row type="TypeDouble" index="3" invalid="no">-8.0000000000000000e+01</row><row type="TypeDouble" index="4" invalid="no">-7.6000000000000000e+01</row><row type="TypeDouble" index="5" invalid="no">-7.1000000000000000e+01</row><row type="TypeDouble" index="6" invalid="no">-6.2000000000000000e+01</row><row type="TypeDouble" index="7" invalid="no">-4.5000000000000000e+01</row><row type="TypeDouble" index="8" invalid="no">0.0000000000000000e+00</row><row type="TypeDouble" index="9" invalid="no">4.5000000000000000e+01</row><row type="TypeDouble" index="10" invalid="no">6.0000000000000000e+01</row><row type="TypeDouble" index="11" invalid="no">7.0000000000000000e+01</row><row type="TypeDouble" index="12" invalid="no">7.4000000000000000e+01</row><row type="TypeDouble" index="13" invalid="no">7.8000000000000000e+01</row><row type="TypeDouble" index="14" invalid="no">8.2000000000000000e+01</row><row type="TypeDouble" index="15" invalid="no">8.8000000000000000e+01</row><row type="TypeDouble" index="16" invalid="no">9.0000000000000000e+01</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">164</column_width></table>
+geometry	0	0	766	861	
+
+</table>
+<multiLayer>
+Graph1	1	1	30/11/2020 12:15
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	412	254
+Alignement	0	0
+<graph>
+ggeometry	9	7	1889	818
+PlotTitle		#ff000000	4
+<Antialiasing>1</Antialiasing>
+Background	#ffffffff	255
+Margin	0
+Border	0	#ffff0000
+grid	1	1	0	0	#ff0000ff	0	1	#ffa0a0a4	2	1	#ff0000ff	0	1	#ffa0a0a4	2	1	0	0	2	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Frequencia (Hz)	Defasagem (°)			
+AxesTitleColors	#ff000000	#ff000000	#ff000000	#ff000000	
+AxesTitleAlignment	5124	4	4	4
+TitleFont	MS Shell Dlg 2	25	75	0	0	0
+ScaleFont0	MS Shell Dlg 2	20	75	0	0	0
+ScaleFont1	MS Shell Dlg 2	20	75	0	0	0
+ScaleFont2	MS Shell Dlg 2	20	75	0	0	0
+ScaleFont3	MS Shell Dlg 2	20	75	0	0	0
+AxisFont0	MS Shell Dlg 2	20	50	0	0	0
+AxisFont1	MS Shell Dlg 2	20	50	0	0	0
+AxisFont2	MS Shell Dlg 2	20	50	0	0	0
+AxisFont3	MS Shell Dlg 2	20	50	0	0	0
+EnabledTickLabels	1	1	1	1	
+AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffffff	255
+curve	Table1_Freqeuncia	Table1_1	7	5	#ffff0000	0	5	3	1	#ffff0000	#ffff0000	0	#ff000000	14	0	64		2	0	0	29	1
+scale	0	-95	95	0	3	5	0	0
+scale	1	-95	95	0	8	5	0	0
+scale	2	1	1000000	0	7	5	1	0
+scale	3	1	1000000	0	8	5	1	0
+LabelsFormat	0	4	0	4	0	4	0	4	
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1	
+MinorTicks	1	1	1	1	
+TicksLength	5	9
+DrawAxesBackbone	1
+AxesLineWidth	1
+LabelsRotation	0	0
+<line>	300	-100.809	300	104.734	3	#ffff00ff	SolidLine	0	0	4	45	1	16	64	</line>
+<line>	1800	114.108	1800	-98.759	3	#ffff00ff	SolidLine	0	0	4	45	1	0	64	</line>
+<legend>	151288.928464693	93.1880108991826	MS Shell Dlg 2	20	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Table1_1	</legend>
+</graph>
+</multiLayer>
+<log>
+[30/11/2020 12:21	Plot: ''Graph1'']
+Boltzmann (Sigmoidal) Fit fit of dataset: Table1_1, using function: (A1-A2)/(1+exp((x-x0)/dx))+A2
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 3,5 to x = 120.000
+A1 (init value) = -90 +/- nan
+A2 (final value) = 90 +/- nan
+x0 (center) = 700 +/- nan
+dx (time constant) = 1 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2 = 435.245
+R^2 = -3,75036273754494
+---------------------------------------------------------------------------------------
+Iterations = 0
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+</log>
